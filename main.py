@@ -16,7 +16,7 @@ def solve(size = 9):
     board = [(row, col) for row in rows for col in cols]
 
     # open the file and stores the numbers in a list. Ex: [1,2,9,0,3...]
-    file_name = "hardestinworld.txt"
+    file_name = sys.argv[1]
     ints = []
     with open(file_name) as f:
         for line in f:
