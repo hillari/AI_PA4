@@ -1,0 +1,10 @@
+Program is written in Python 3.5
+You must have constraint module installed eg (using pip package manager)
+
+pip install python-constraint
+
+Program usage: takes the filename as the first commandline argument
+
+Example:
+
+>>python3 main.py 17-1.txt
